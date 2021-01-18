@@ -1,0 +1,4 @@
+[0105/091117.442:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)
+[0105/111834.350:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\MANATI\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\e8abfcae-ca94-4783-b8ad-46251d5d3d86: El sistema no puede encontrar la ruta especificada. (0x3)
+[0112/102043.466:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)
+[0113/102045.044:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)

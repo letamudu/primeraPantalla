@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¡Interactuemos!</title>
+    <link rel="stylesheet" type ="text/css" href="css/estilo.css">
+    
+</head>
+
+<body>
+
+        
+        <form >
+
+            <h3>¡Bienvenido a la interaccion entre tres números y su diferencia!</h3>
+            <br>
+            <label for="uno">Ingrese número inicial:</label>
+            <input type="text" onkeypress="return soloNumeros(event)" required onpaste="return false" placeholder="Número inicial" name="numeroUno" id="uno" maxlength="5" minlength="1">
+            <label for="dos">Ingrese número final:</label>
+            <input type="text" onkeypress="return solosoloNumeros(event)" required  onpaste="return false" placeholder="Número final" name="numeroDos" id="dos" maxlength="5" minlength="1">
+            <label for="diferencia">Ingrese el número diferencia:</label>
+            <input type="text" onkeypress="return solosoloNumeros(event)" required onpaste="return false" placeholder="Diferencia" name="diferencia" id="diferencia" maxlength="2" minlength="1">
+            
+            <input type="button" id="resultado" onclick="ejecuta()" value="Ejecutar">
+            <input type="button" value="Limpiar" onClick="window.location.reload()" id="borra">
+            <textarea    type="text"  id="res"  readonly> </textarea>
+            
+        </form>
+<script src="js/main.js"></script> 
+
+
+</body>
+</html>

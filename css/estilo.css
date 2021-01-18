@@ -1,0 +1,70 @@
+body{
+    background-image: url("../img/fondo.jpg");
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    font-size: 20px;
+    margin: 70px 70px;
+    color: rgb(255, 255, 255);
+    flex-wrap: wrap;
+    min-width: 200px;
+}
+
+form{
+    width: 500px;
+}
+
+input, textarea{
+
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 5px;
+    box-sizing: border-box ;
+    font-size: 17px;
+}
+
+textarea{
+
+    
+    min-height: 100px;
+    max-height: 250px;
+    max-width: 500px;
+    display: none;
+    margin: 10px 0px;
+}
+
+h3{color:rgb(255, 255, 255);
+    text-align: center;
+    background: rgb(65, 17, 0);
+    }
+
+h3:hover{ color: crimson;
+        }
+
+label:hover{ color: rgb(189, 120, 120);
+}
+
+#resultado{
+    background: rgb(65, 3, 3);
+    color: rgb(255, 255, 255);
+    cursor: pointer;   
+    width: 48%;
+    margin: 5px 5px;
+    
+}
+
+#borra{
+    background:  rgb(65, 3, 3);
+    color: rgb(255, 255, 255);
+    cursor: pointer;   
+    width:48%;
+    float: right;
+    margin: 5px 5px;
+    
+}
+
+@media(max-width:50px){
+    form{
+        width: 100px;
+    }
+}
+
