@@ -68,3 +68,28 @@ label:hover{ color: rgb(189, 120, 120);
     }
 }
 
+.menu{
+    list-style: none;
+    padding: 10;
+    background: rgb(65, 3, 3);
+    width: 39%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    display: block;
+}
+
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a:hover{
+    background:  rgb(202, 100, 100); 
+
+}
